@@ -3,6 +3,7 @@ package com.hit.api;
 import androidx.annotation.Nullable;
 
 import com.hit.model.DefaultResponse;
+import com.hit.model.LoginResponse;
 
 
 import retrofit2.Call;
@@ -22,10 +23,10 @@ public interface Api {
     );
 
 
-   /* @FormUrlEncoded
+   @FormUrlEncoded
     @POST("userLogin")
     Call<LoginResponse> userLogin(
             @Nullable @Field("password")String password,
             @Nullable @Field("email")String email
-    );*/
+    );
 }
