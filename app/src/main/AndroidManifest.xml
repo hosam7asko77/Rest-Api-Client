@@ -12,9 +12,12 @@
         android:supportsRtl="true"
         android:theme="@style/AppTheme"
         android:usesCleartextTraffic="true">
-        <activity android:name=".activites.ProfileActivity"></activity>
+        <activity
+            android:name=".activites.LoginActivity"
+            android:label="activity_main_profile"></activity>
+        <activity android:name=".activites.ProfileActivity" />
         <activity android:name=".activites.MainActivity" />
-        <activity android:name=".activites.LoginActivity">
+        <activity android:name=".activites.MainProfileActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 

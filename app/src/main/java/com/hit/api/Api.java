@@ -5,10 +5,13 @@ import androidx.annotation.Nullable;
 import com.hit.model.DefaultResponse;
 import com.hit.model.LoginResponse;
 
+import com.hit.model.UserResponse;
+
 
 import retrofit2.Call;
 import retrofit2.http.Field;
 import retrofit2.http.FormUrlEncoded;
+import retrofit2.http.GET;
 import retrofit2.http.POST;
 
 public interface Api {
@@ -29,4 +32,6 @@ public interface Api {
             @Nullable @Field("password")String password,
             @Nullable @Field("email")String email
     );
+   @GET("getAll")
+   Call<UserResponse> getUsers();
 }

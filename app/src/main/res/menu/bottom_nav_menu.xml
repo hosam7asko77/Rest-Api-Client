@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/home_nv"
+        android:icon="@drawable/ic_home_black_24dp"
+        android:title="Home" />
+
+    <item
+        android:id="@+id/usernv"
+        android:icon="@drawable/ic_user_icon"
+        android:title="User" />
+
+    <item
+        android:id="@+id/setting_nv"
+        android:icon="@drawable/ic_settings_icon_24dp"
+        android:title="Setting" />
+
+</menu>
